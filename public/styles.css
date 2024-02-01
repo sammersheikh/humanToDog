@@ -19,3 +19,46 @@ header {
     text-align: center;
     width: 100%;
 }
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Add space below each label */
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px; /* Add space below each input field */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.center {
+    text-align: center;
+    margin-top: 20px; /* Add space above the submit button */
+}
+
+input[type="submit"] {
+    padding: 10px 20px; /* Add padding to the submit button */
+    border: none;
+    border-radius: 5px; /* Add rounded edges to the submit button */
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+input[type="checkbox"] {
+    border-radius: 5px; /* Add rounded edges to the checkbox */
+}
+
+#outputContainer {
+    text-align: center;
+}
+
+/* Style the output text as h2 */
+#outputContainer h2 {
+    font-size: 1.5em; /* Adjust font size as needed */
+    color: #333; /* Set text color as needed */
+    /* Add any other styling properties as needed */
+}
