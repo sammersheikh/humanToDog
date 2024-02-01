@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Web App</title>
+    <title>DST</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,15 +13,24 @@
     </header>
 
     <form>
+        <div>
         <label for="options">Select your dog size:</label>
         <select id="options" name="options">
             <option value="option1">20lbs or less</option>
             <option value="option2">21 to 50lbs</option>
             <option value="option3">50lbs or more</option>
         </select>
+    </div>
+    <div>
+        <label for="userInput">Enter time:</label>
+        <input type="text" id="userInput" name="userInput" placeholder="human minutes" pattern="\d*" title="Enter numbers only">
 
+    </div>
+    <div class="center">
         <input type="submit" value="Submit">
+    </div>
     </form>
-
+    <div id="outputContainer"></div>
+    <script src="main.js"></script>
 </body>
 </html>
