@@ -14,12 +14,13 @@
 
     <form>
         <div>
-        <label for="options">Select your dog size:</label>
-        <select id="options" name="options">
+        <label for="options">Enter your dog's age:</label>
+        <input type="text" id="age" name="age" placeholder="dog age" pattern="\d*" title="Enter numbers only">
+        <!-- <select id="options" name="options">
             <option value="option1">20lbs or less</option>
             <option value="option2">21 to 50lbs</option>
             <option value="option3">50lbs or more</option>
-        </select>
+        </select> -->
     </div>
     <div>
         <label for="userInput">Enter time:</label>
@@ -27,7 +28,8 @@
 
     </div>
     <div class="center">
-        <input type="submit" value="Submit">
+        <input type="reset" value="Reset" class="button">
+        <input type="submit" value="Submit" class="button">
     </div>
     </form>
     <div id="outputContainer"></div>

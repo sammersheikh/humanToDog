@@ -62,3 +62,18 @@ input[type="checkbox"] {
     color: #333; /* Set text color as needed */
     /* Add any other styling properties as needed */
 }
+
+.button {
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    padding: 10px 20px; /* Add padding to the submit button */
+    border: none;
+    border-radius: 5px; /* Add rounded edges to the submit button */
+    background-color: #d23906;
+    color: white;
+    cursor: pointer;
+}
